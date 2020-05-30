@@ -6,7 +6,7 @@ import Boton from '../ui/Boton/boton';
 const Menu = () => {
     return ( 
         <div className={style.background}>
-            <h1>ExpensApp</h1>
+            <h1 className={style.title}>ExpensApp</h1>
             <div className={style.logo}>Logo</div>
             <div className={style.botonera}>
                 <Boton 
