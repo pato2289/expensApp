@@ -1,0 +1,39 @@
+@import "../ui/variables";
+
+.background {
+    @include pantallaCelular;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        text-align: center;
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        background-color: $azul;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .botonera {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    @media (min-width: 376px) {
+        max-width: 640px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}

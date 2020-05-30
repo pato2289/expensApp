@@ -1,0 +1,22 @@
+@import '../variables';
+
+.button{
+    background-color: $azul;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+
+    &:hover{
+        opacity: .8;
+    }
+
+    .textButton{
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+
+
+}
